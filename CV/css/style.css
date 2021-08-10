@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.myimage{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 4px;
+}
+/*de aqui saque la plantilla https://codepen.io/aundreyd/pen/NNPprw*/
+/*.jumbotron{
+    background: 
+    linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+    ),
+    url(images/sivar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white !important;
+    height:100vh;
+}*/
+.jumbotron {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background: rgb(0,5,88);
+    background: linear-gradient(45deg, rgba(0,5,88,1) 0%, rgba(3,54,142,1) 35%, rgba(5,134,230,1) 100%);
+    background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron h1 {
+    text-align: center;
+    background-color: #FFFFFF;
+    display: inline-block;
+    color: #295ef0;
+    font-weight: 700;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+.jumbotron h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/*configuracion de estilo de notas*/
+.mynotas{
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+        border-left-color: #295ef0;
+        border-left-width: 1px;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+.borde{
+    box-shadow: 8px 8px 5px rgb(194, 194, 194);
+}
+
+/*configuraciones de los iconos*/
+.myicon{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+}
+.myicon:hover{
+    /*color: #295ef0;*/
+    -webkit-transform: translateY(-3px);
+}
+
+/*configuracion de los codigos qr*/
+.myqr{
+    height: 160px;
+    width: 160px;
+}
+.myqr:hover{
+    -webkit-transform: translateY(-3px);
+}
+
+/*pie de pagina*/
+.myfooter{
+    background: rgb(0,5,88);
+    background: linear-gradient(45deg, rgba(0,5,88,1) 0%, rgba(3,54,142,1) 35%, rgba(5,134,230,1) 100%);
+    
+}
+
+
+/*no se que hace este codigo*/
+#encabezado {
+    padding: 2%;
+    text-align: center;
+}
+#articulos #articulo1, #articulo2, #articulo3 {
+    float: left;
+    width: 33.33%;
+}
+#tarjetas #card1 {
+    float: left;
+    width: 50%;
+}
+#tarjetas #card2 {
+    float: left;
+    width: 50%;
+}
+#tarjetas #card1 .col-md-4{
+    float: left;
+    width: 40%;
+}
+#tarjetas #card1 .col-md-8{
+    float: left;
+    width: 60%; 
+}
+#tarjetas #card2 .col-md-4{
+    float: left;
+    width: 40%;
+}
+#tarjetas #card2 .col-md-8{
+    float: left;
+    width: 60%;
+}
+#hobbies {
+    clear: both;
+}
+#hobbies h4, p {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
